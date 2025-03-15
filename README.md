@@ -56,6 +56,7 @@ This dataset, available on Kaggle, has already been explored by several users th
 
 Beyond a simple statistical analysis, we also want to develop a straightforward model that allows a player to input their game data after 10 minutes of play. This model would predict whether they were likely to win, providing valuable insights for potential improvement.
 
+To present our data, we may take inspiration from previous years' projects, particularly the use of a slide-based scrolling system rather than continuous scrolling. This approach can provide a more immersive and structured experience, allowing users to focus on key insights step by step.
 
 ## Milestone 2 (18th April, 5pm)
 
