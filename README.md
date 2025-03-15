@@ -27,9 +27,16 @@ We will use the League of Legends Diamond Ranked Games (10 Min) dataset from Kag
 
 > Frame the general topic of your visualization and the main axis that you want to develop.
 > - What am I trying to show with my visualization?
->Our project aims to analyze early-game factors that contribute to a team’s victory in League of Legends, moving beyond basic win rate comparisons between the blue and red teams.
+Our project aims to analyze early-game factors that contribute to a team’s victory in League of Legends, moving beyond basic win rate comparisons between the blue and red teams.
 
 > - Think of an overview for the project, your motivation, and the target audience.
+Motivation & Audience
+	•	Esports analysts & coaches: Understanding early-game strategies that lead to success.
+	•	Competitive players: Gaining insights into effective playstyles.
+	•	Game designers & analysts: Evaluating balance in early-game mechanics.
+
+Rather than just predicting the winning team, our goal is to identify which gameplay decisions matter most in achieving victory.
+
 
 ### Exploratory Data Analysis
 
