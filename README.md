@@ -18,7 +18,7 @@ Please, fill the following sections about your project.
 *(max. 2000 characters per section)*
 
 ### Dataset
-We will use the League of Legends Diamond Ranked Games (10 Min) dataset from Kaggle (link). This dataset contains match statistics from high-ranked games within the first 10 minutes, including player kills, vision control, jungle objectives, and gold differences.
+We will use the League of Legends Diamond Ranked Games (10 Min) dataset from Kaggle [link](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min). This dataset contains match statistics from almost 10 0000 high-ranked games within the first 10 minutes, including player kills, vision control, jungle objectives, and gold differences.
 
 >
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
@@ -30,12 +30,13 @@ We will use the League of Legends Diamond Ranked Games (10 Min) dataset from Kag
 Our project aims to analyze early-game factors that contribute to a team’s victory in League of Legends, moving beyond basic win rate comparisons between the blue and red teams.
 
 > - Think of an overview for the project, your motivation, and the target audience.
+
 Motivation & Audience
 	•	Esports analysts & coaches: Understanding early-game strategies that lead to success.
 	•	Competitive players: Gaining insights into effective playstyles.
 	•	Game designers & analysts: Evaluating balance in early-game mechanics.
 
-Rather than just predicting the winning team, our goal is to identify which gameplay decisions matter most in achieving victory.
+Rather than just predicting the winning team, our goal is to identify which gameplay decisions matter most in achieving victory. Also, as a beginner, gaining a better overall understanding of the strategies to adopt in the early game, a crucial phase at this level.
 
 
 ### Exploratory Data Analysis
@@ -51,7 +52,7 @@ Rather than just predicting the winning team, our goal is to identify which game
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
-This dataset, available on Kaggle, has already been explored by several users through notebooks like this one [here] (https://www.kaggle.com/code/servietsky/league-of-legends-what-to-do-in-first-10-min) presenting basic statistics and correlations. However, we aim to stand out by offering a more visually engaging representation of the data.
+This dataset, available on Kaggle, has already been explored by several users through notebooks like this one [here](https://www.kaggle.com/code/servietsky/league-of-legends-what-to-do-in-first-10-min) presenting basic statistics and correlations. However, we aim to stand out by offering a more visually engaging representation of the data.
 
 Beyond a simple statistical analysis, we also want to develop a straightforward model that allows a player to input their game data after 10 minutes of play. This model would predict whether they were likely to win, providing valuable insights for potential improvement.
 
