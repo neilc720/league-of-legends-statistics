@@ -19,23 +19,19 @@ Please, fill the following sections about your project.
 
 ### Dataset
 League of Legends (LOL) is a fast-paced multiplayer online battle arena (MOBA) game by Riot Games. Players control unique champions/characters with special abilities, battling in teams to destroy the enemy Nexus (base). Strategy, teamwork, and skill are key to winning matches. With constant updates, esports tournaments, and a massive global community, it's one of the most popular games worldwide.
-We will use the LOL Diamond Ranked Games (10 Min) dataset from Kaggle [link](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min). This dataset contains match statistics from almost 10 0000 high-ranked games within the first 10 minutes, including player kills, vision control, jungle objectives, and gold differences.
+We will use the LOL Diamond Ranked Games (10 Min) dataset from Kaggle [Kaggle link](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min). This dataset contains match statistics from almost 10 0000 high-ranked games within the first 10 minutes, including player kills, vision control, jungle objectives, and gold differences.
 
->
-> Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
+
 
 ### Problematic
-
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-
 Our project aims to analyze early-game factors that contribute to a team’s victory in League of Legends, moving beyond basic win rate comparisons between the blue and red teams.
 
-> - Think of an overview for the project, your motivation, and the target audience.
+
 
 ## Motivation & Audience
-- **As average players**: We find it interesting to dive deeper into game statistics and analyze the early-game meta.  
-- **Esports analysts & coaches**: Understanding early-game strategies that lead to success.  
+The targetted auiences are the following:
+- **average players**: We find it interesting to dive deeper into game statistics and analyze the early-game meta, to help the average player understand the game better.  
+- **Esports analysts & coaches**: Providing statistical and numerical proof of the best early-game strategies that lead to success.  
 - **Competitive players**: Gaining insights into effective playstyles.  
 - **Game designers & analysts**: Evaluating balance in early-game mechanics.  
 
@@ -44,11 +40,6 @@ Rather than just predicting the winning team, our goal is to identify which game
 
 ### Exploratory Data Analysis
 
-> Pre-processing of the data set you chose
-The data we chose does not contain any missing value.
-
-> - Show some basic statistics and get insights about the data
-
 You can find the details of the figures in the [EDA Notebook](EDA.ipynb)
 
 ## Win Distribution: Red vs. Blue Team
@@ -56,8 +47,7 @@ The dataset is balanced, with an almost equal number of wins for the blue team a
 ![Win Distribution](figures/win_distribution.png)
 
 ## Average Gold for Winning vs. Losing Teams
-The winning team consistently earns more gold than the losing team.
-This confirms that gold difference is a strong indicator of success.
+The winning team consistently earns more gold than the losing team. This confirms that gold difference is a strong indicator of success.
 ![Average Gold](figures/average_gold.png)
 
 ## Average KDA for Winning vs. Losing Teams
@@ -71,13 +61,12 @@ The correlation matrix shows that blueTotalGold and blueGoldDiff have a strong p
 Other features like elite monsters taken (Herald, Dragons) and towers destroyed also show a strong impact.
 Wards placed/destroyed have a weaker correlation, indicating that vision control might be a secondary factor compared to direct combat stats.
 
+Next Steps:
+	•	Perform PCA (Principal Component Analysis) to further analyze feature importance.
+	•	Develop predictive models using the most impactful variables (gold, objectives, kills).
+	•	Investigate whether early-game actions (first blood, early objectives) significantly affect the final outcome.
+
 ### Related work
-
-
-> - What others have already done with the data?
-> - Why is your approach original?
-> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-> - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
 This dataset, available on Kaggle, has already been explored by several users through notebooks like this one [here](https://www.kaggle.com/code/servietsky/league-of-legends-what-to-do-in-first-10-min) presenting basic statistics and correlations. However, we aim to stand out by offering a more visually engaging representation of the data.
 
