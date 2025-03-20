@@ -45,7 +45,31 @@ Rather than just predicting the winning team, our goal is to identify which game
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
+The data we chose does not contain any missing value.
+
 > - Show some basic statistics and get insights about the data
+
+You can find the details of the figures in the [EDA Notebook](EDA.ipynb)
+
+## Win Distribution: Red vs. Blue Team
+The dataset is balanced, with an almost equal number of wins for the blue team and red team. This indicates that the dataset does not have a bias toward one side.
+![Win Distribution](figures/win_distribution.png)
+
+## Average Gold for Winning vs. Losing Teams
+The winning team consistently earns more gold than the losing team.
+This confirms that gold difference is a strong indicator of success.
+![Average Gold](figures/average_gold.png)
+
+## Average KDA for Winning vs. Losing Teams
+The winning team consistently has a higher KDA, meaning kills and fewer deaths play a crucial role in determining victory.
+When the blue team wins, their KDA is significantly higher than the red team’s KDA, and vice versa.
+![Average KDA](figures/average_kda.png)
+
+## Feature Correlation Matrix
+![Correlation Matrix](figures/correlation_matrix.png)
+The correlation matrix shows that blueTotalGold and blueGoldDiff have a strong positive correlation with winning.
+Other features like elite monsters taken (Herald, Dragons) and towers destroyed also show a strong impact.
+Wards placed/destroyed have a weaker correlation, indicating that vision control might be a secondary factor compared to direct combat stats.
 
 ### Related work
 
@@ -57,7 +81,7 @@ Rather than just predicting the winning team, our goal is to identify which game
 
 This dataset, available on Kaggle, has already been explored by several users through notebooks like this one [here](https://www.kaggle.com/code/servietsky/league-of-legends-what-to-do-in-first-10-min) presenting basic statistics and correlations. However, we aim to stand out by offering a more visually engaging representation of the data.
 
-Beyond a simple statistical analysis, we also want to develop a straightforward model that allows a player to input their game data after 10 minutes of play. This model would predict whether they were likely to win, providing valuable insights for potential improvement.
+Beyond a simple statistical analysis, we also want to develop a straightforward model (probably a logistic regression) that allows a player to input their game data after 10 minutes of play. This model would predict whether they were likely to win, providing valuable insights for potential improvement.
 
 To present our data, we may take inspiration from previous years' projects, particularly the use of a slide-based scrolling system rather than continuous scrolling. This approach can provide a more immersive and structured experience, allowing users to focus on key insights step by step.
 
