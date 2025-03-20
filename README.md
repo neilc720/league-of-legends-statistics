@@ -10,12 +10,6 @@
 
 ## Milestone 1 (21st March, 5pm)
 
-**10% of the final grade**
-
-This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
-Please, fill the following sections about your project.
-
-*(max. 2000 characters per section)*
 
 ### Dataset
 League of Legends (LOL) is a fast-paced multiplayer online battle arena (MOBA) game by Riot Games. Players control unique champions/characters with special abilities, battling in teams to destroy the enemy Nexus (base). Strategy, teamwork, and skill are key to winning matches. With constant updates, esports tournaments, and a massive global community, it's one of the most popular games worldwide.
