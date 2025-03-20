@@ -31,7 +31,7 @@ Our project aims to analyze early-game factors that contribute to a team’s vic
 ## Motivation & Audience
 The targetted auiences are the following:
 - **average players**: We find it interesting to dive deeper into game statistics and analyze the early-game meta, to help the average player understand the game better.  
-- **Esports analysts & coaches**: Providing statistical and numerical proof of the best early-game strategies that lead to success.  
+- **Esports analysts & coaches**: Providing statistical and numerical proof  of the best early-game strategies that lead to success.  
 - **Competitive players**: Gaining insights into effective playstyles.  
 - **Game designers & analysts**: Evaluating balance in early-game mechanics.  
 
@@ -47,9 +47,10 @@ The dataset is balanced, with an almost equal number of wins for the blue team a
 ![Win Distribution](figures/win_distribution.png)
 
 ## Average Gold for Winning vs. Losing Teams
-The winning team consistently earns more gold than the losing team. This confirms that gold difference is a strong indicator of success.
 
 ![Average Gold](figures/average_gold.png)
+The winning team consistently earns more gold than the losing team. This confirms that gold difference is a strong indicator of success.
+
 
 ## Average KDA for Winning vs. Losing Teams
 The winning team consistently has a higher KDA, meaning kills and fewer deaths play a crucial role in determining victory.
