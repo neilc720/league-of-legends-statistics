@@ -44,21 +44,26 @@ You can find the details of the figures in the [EDA Notebook](EDA.ipynb)
 
 ## Win Distribution: Red vs. Blue Team
 The dataset is balanced, with an almost equal number of wins for the blue team and red team. This indicates that the dataset does not have a bias toward one side.
+
 ![Win Distribution](figures/win_distribution.png)
 
 ## Average Gold for Winning vs. Losing Teams
 
-![Average Gold](figures/average_gold.png)
 The winning team consistently earns more gold than the losing team. This confirms that gold difference is a strong indicator of success.
+
+![Average Gold](figures/average_gold.png)
+
 
 
 ## Average KDA for Winning vs. Losing Teams
 The winning team consistently has a higher KDA, meaning kills and fewer deaths play a crucial role in determining victory.
 When the blue team wins, their KDA is significantly higher than the red team’s KDA, and vice versa.
+
 ![Average KDA](figures/average_kda.png)
 
 ## Feature Correlation Matrix
 ![Correlation Matrix](figures/correlation_matrix.png)
+
 The correlation matrix shows that blueTotalGold and blueGoldDiff have a strong positive correlation with winning.
 Other features like elite monsters taken (Herald, Dragons) and towers destroyed also show a strong impact.
 Wards placed/destroyed have a weaker correlation, indicating that vision control might be a secondary factor compared to direct combat stats.
