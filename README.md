@@ -34,7 +34,7 @@ Our project aims to analyze early-game factors that contribute to a team’s vic
 > - Think of an overview for the project, your motivation, and the target audience.
 
 ## Motivation & Audience
-- **As players**: We find it interesting to dive deeper into game statistics and analyze the early-game meta.  
+- **As average players**: We find it interesting to dive deeper into game statistics and analyze the early-game meta.  
 - **Esports analysts & coaches**: Understanding early-game strategies that lead to success.  
 - **Competitive players**: Gaining insights into effective playstyles.  
 - **Game designers & analysts**: Evaluating balance in early-game mechanics.  
