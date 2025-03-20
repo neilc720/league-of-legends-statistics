@@ -48,6 +48,7 @@ The dataset is balanced, with an almost equal number of wins for the blue team a
 
 ## Average Gold for Winning vs. Losing Teams
 The winning team consistently earns more gold than the losing team. This confirms that gold difference is a strong indicator of success.
+
 ![Average Gold](figures/average_gold.png)
 
 ## Average KDA for Winning vs. Losing Teams
